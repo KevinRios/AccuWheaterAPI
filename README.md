@@ -1,8 +1,15 @@
 # AccuWheaterAPI
-Clima APP
+
+Nombre y Apellido: Kevin Rios
+
+Email: KevinJIRIos@gmail.com
 
 
-Esta es una aplp te permite obtener información meteorológica y guardarla en una base de datos local. Esta informacion se obtiene consultando a las APIS publicas de AccuWeather (https://developer.accuweather.com/)
+
+## Clima APP
+
+
+Esta es una app te permite obtener información meteorológica y guardarla en una base de datos local. Esta informacion se obtiene consultando a las APIS publicas de AccuWeather (https://developer.accuweather.com/)
 
 
 Requisitos Para ejecutar 
