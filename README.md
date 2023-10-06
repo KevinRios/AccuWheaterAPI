@@ -14,21 +14,23 @@ Git - para clonar el repositorio
 
 
 
-Configuración
 
+
+## Configuracion
 1) Clonar el repositorio 
 
 2) Abrir el proyecto en algun IDE
 
-3) Configura las variables de entorno necesarias en el archivo application.properties.
+3) Configurar key para acceder a la API de AccuWeather en el archivo application.properties.
    
-   Solo hay que cambiar la key de la API de AccuWeather accuweather.api.api-key=API_KEY
-   API_KEY seria tu clave de API AccuWeather
+   Solo hay que cambiar la key de la API de AccuWeather -> accuweather.api.api-key=API_KEY
+   
+   Donde API_KEY seria tu clave de API AccuWeather
 
 
 
 
-Ejecución
+## Ejecución
 Esta es una aplicacion SpringBoot. Se va a ejecutar el proyecto desde la clase  ClimaApplication
 ![image](https://github.com/KevinRios/AccuWheaterAPI/assets/16569777/30b3b34a-86cd-4f16-bda3-878fdc90119e)
 
@@ -51,7 +53,7 @@ En caso de que la peticion sea exitosa, se va a ver el siguiente mensaje
 
 
 
-Base de Datos
+## Base de Datos
 Al obtener, exitosamente, los datos del clima, se guardan en una base de datos relacional H2, la cual corre en memoria
 
 Con la configuracion definida en application.properties, se va a estar generando una base de datos H2 en memoria llamada "testdb".
